@@ -3,7 +3,7 @@ package JavaProgram;
 public class SwitchCaseVowel {
 
 	public static void main(String[] args) {
-		char ch = 'A';
+		char ch = 'e';
 		String vowel = "";
 		switch(ch) {
 		case'a': vowel ="a is vowel";
