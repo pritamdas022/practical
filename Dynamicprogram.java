@@ -1,4 +1,4 @@
-// DYNAMIC PROGRAM
+// DYNAMIC BINDING PROGRAM
 package JavaProgram;
 //parent class
 class Dyna{
