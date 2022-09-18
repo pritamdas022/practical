@@ -1,4 +1,4 @@
-// STATIC PROGRAM
+// STATIC BINDING PROGRAM
 package JavaProgram;
 // class1
 class Demo{
