@@ -17,7 +17,7 @@ public class TryCatchExample {
 			int m = Integer.parseInt(r);// number format exception
 			System.out.println(m);
 //			catch block
-		} catch (Exception e) { // handling occur
+		} catch (Exception e) { // handling exception
 			System.out.println(e);
 		}
 		String b = "i can not be handle"; // variable
