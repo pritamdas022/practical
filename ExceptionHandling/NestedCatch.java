@@ -11,7 +11,8 @@ public class NestedCatch {
 		try {
 			int x = s.nextInt();// user input of x
 			int y = s.nextInt();// user input of y
-			System.out.println(" "+x/y);// print
+			// if exception occurs, the remaining statement will not exceute  
+			System.out.println(" "+x/y);
 		} catch (InputMismatchException e) {// handling exception
 			System.out.println(e);
 		}
