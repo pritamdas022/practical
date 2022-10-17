@@ -12,11 +12,11 @@ public class NestedCatch {
 			int x = s.nextInt();// user input of x
 			int y = s.nextInt();// user input of y
 			System.out.println(" "+x/y);// print
-		} catch (InputMismatchException e) {// handling occur
+		} catch (InputMismatchException e) {// handling exception
 			System.out.println(e);
 		}
 //		another catch block
-		catch (Exception e) {// handling block
+		catch (Exception e) {// handling exception
 			System.out.println(e);
 		}
 
