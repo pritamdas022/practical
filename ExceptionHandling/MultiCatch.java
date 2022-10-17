@@ -6,6 +6,7 @@ public class MultiCatch {
 //		try block
 		try {
 			int a = 50/0;// arithmetic exception
+			// if exception occurs, the remaining statement will not exceute  
 			System.out.println(a);
 			int arr[] = new int[3];
 			arr[4] = 50; // array index out of bound exception
