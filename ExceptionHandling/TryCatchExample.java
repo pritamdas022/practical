@@ -9,6 +9,7 @@ public class TryCatchExample {
 //		try block
 		try {
 			int num = 50/0;// arithmetic exception
+			// if exception occurs, the remaining statement will not exceute  
 			System.out.println(num);
 			String r = "riya";
 			System.out.println(r.length());
