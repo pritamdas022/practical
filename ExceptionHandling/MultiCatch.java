@@ -9,9 +9,9 @@ public class MultiCatch {
 			System.out.println(a);
 			int arr[] = new int[3];
 			arr[4] = 50; // array index out of bound exception
-		} catch (ArithmeticException e) {// handling occur
+		} catch (ArithmeticException e) {// handling exception
 			System.out.println(e);
-		}catch (ArrayIndexOutOfBoundsException e) {// handling occur
+		}catch (ArrayIndexOutOfBoundsException e) {// handling exception
 			System.out.println(e);
 		}
 //		finally block
